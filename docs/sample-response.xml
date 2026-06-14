@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoices>
+  <Invoice>
+    <CustomerName>Vins et alcools Chevalier</CustomerName>
+    <Salesperson>Steven Buchanan</Salesperson>
+    <OrderID>10248</OrderID>
+    <ShipperName>Federal Shipping</ShipperName>
+    <ProductID>11</ProductID>
+    <ProductName>Queso Cabrales</ProductName>
+    <UnitPrice>14.00</UnitPrice>
+    <Quantity>12</Quantity>
+    <Discount>0</Discount>
+    <ShipName>Vins et alcools Chevalier</ShipName>
+    <ShipAddress>59 rue de l'Abbaye</ShipAddress>
+    <ShipCity>Reims</ShipCity>
+    <ShipCountry>France</ShipCountry>
+    <OrderDate>1996-07-04T00:00:00Z</OrderDate>
+    <Freight>32.38</Freight>
+  </Invoice>
+  <Invoice>
+    <CustomerName>Toms Spezialitäten</CustomerName>
+    <Salesperson>Michael Suyama</Salesperson>
+    <OrderID>10249</OrderID>
+    <ShipperName>Speedy Express</ShipperName>
+    <ProductID>14</ProductID>
+    <ProductName>Tofu</ProductName>
+    <UnitPrice>23.25</UnitPrice>
+    <Quantity>9</Quantity>
+    <Discount>0</Discount>
+    <ShipName>Toms Spezialitäten</ShipName>
+    <ShipAddress>Luisenstr. 48</ShipAddress>
+    <ShipCity>Münster</ShipCity>
+    <ShipCountry>Germany</ShipCountry>
+    <OrderDate>1996-07-05T00:00:00Z</OrderDate>
+    <Freight>11.61</Freight>
+  </Invoice>
+  <Invoice>
+    <CustomerName>Hanari Carnes</CustomerName>
+    <Salesperson>Margaret Peacock</Salesperson>
+    <OrderID>10250</OrderID>
+    <ShipperName>United Package</ShipperName>
+    <ProductID>51</ProductID>
+    <ProductName>Manjimup Dried Apples</ProductName>
+    <UnitPrice>42.40</UnitPrice>
+    <Quantity>35</Quantity>
+    <Discount>0.15</Discount>
+    <ShipName>Hanari Carnes</ShipName>
+    <ShipAddress>Rua do Paço, 67</ShipAddress>
+    <ShipCity>Rio de Janeiro</ShipCity>
+    <ShipCountry>Brazil</ShipCountry>
+    <OrderDate>1996-07-08T00:00:00Z</OrderDate>
+    <Freight>65.83</Freight>
+  </Invoice>
+</Invoices>
