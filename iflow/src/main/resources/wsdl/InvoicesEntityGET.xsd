@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Invoices">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="unbounded" name="Invoice">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" nillable="false" maxOccurs="1" name="CustomerName" xmlns=""/>
+                            <xs:element type="xs:string" nillable="false" maxOccurs="1" name="Salesperson" xmlns=""/>
+                            <xs:element type="xs:int" nillable="false" maxOccurs="1" name="OrderID" xmlns=""/>
+                            <xs:element type="xs:string" nillable="false" maxOccurs="1" name="ShipperName" xmlns=""/>
+                            <xs:element type="xs:int" nillable="false" maxOccurs="1" name="ProductID" xmlns=""/>
+                            <xs:element type="xs:string" nillable="false" maxOccurs="1" name="ProductName" xmlns=""/>
+                            <xs:element type="xs:decimal" nillable="false" maxOccurs="1" name="UnitPrice" xmlns=""/>
+                            <xs:element type="xs:short" nillable="false" maxOccurs="1" name="Quantity" xmlns=""/>
+                            <xs:element type="xs:float" nillable="false" maxOccurs="1" name="Discount" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipName" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipAddress" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipCity" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipRegion" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipPostalCode" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ShipCountry" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="CustomerID" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Address" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="City" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Region" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="PostalCode" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Country" xmlns=""/>
+                            <xs:element type="xs:dateTime" nillable="true" minOccurs="0" maxOccurs="1" name="OrderDate" xmlns=""/>
+                            <xs:element type="xs:dateTime" nillable="true" minOccurs="0" maxOccurs="1" name="RequiredDate" xmlns=""/>
+                            <xs:element type="xs:dateTime" nillable="true" minOccurs="0" maxOccurs="1" name="ShippedDate" xmlns=""/>
+                            <xs:element type="xs:decimal" nillable="true" minOccurs="0" maxOccurs="1" name="ExtendedPrice" xmlns=""/>
+                            <xs:element type="xs:decimal" nillable="true" minOccurs="0" maxOccurs="1" name="Freight" xmlns=""/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
