@@ -1,0 +1,7 @@
+#Sun Jun 14 14:36:24 UTC 2026
+Group\ Record=20
+iflowName=SI_Order_SplitGather_Sync
+mailBody=Dear Team,<br><br>  An error occurred during the processing of an SAP Integration Suite integration flow. Please review the details below and investigate the corresponding MPL entry for further analysis and resolution.<br><br>  <table border\="1" cellpadding\="6" cellspacing\="0" style\="border-collapse\:collapse;">     <tr>         <th>Field</th>         <th>Value</th>     </tr>     <tr>         <td>Interface Name</td>         <td>${property.InterfaceName}</td>     </tr>     <tr>         <td>MPL ID</td>         <td>${header.SAP_MessageProcessingLogID}</td>     </tr>     <tr>         <td>Timestamp</td>         <td>${date\:now\:yyyy-MM-dd HH\:mm\:ss}</td>     </tr>     <tr>         <td>Error Message</td>         <td>${property.CamelExceptionCaught}</td>     </tr>     <tr>         <td>HTTP Response Code</td>         <td>${header.CamelHttpResponseCode}</td>     </tr> </table>  <br>  Please review the message in SAP Integration Suite and take the necessary corrective action. If required, reprocess the message after resolving the underlying issue.<br><br>  Regards,<br> <b>SAP Integration Suite Monitoring</b>
+mailFrom=dummy@yourcompany.com
+mailSubject=Error-InvoiceDetails
+mailTo=dummy@yourcompany.com
